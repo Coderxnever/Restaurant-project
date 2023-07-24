@@ -696,6 +696,9 @@ cursor: pointer;
   }
   .logo{
     color: white;
+    display: flex;
+    justify-content: flex-start;
+    left: 50px;
   }
 }
 .footer h1{
