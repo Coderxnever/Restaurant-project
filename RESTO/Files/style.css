@@ -685,11 +685,17 @@ cursor: pointer;
   .img-container .btn {
     font-size: 0.7rem;
   }
+  .logo{
+    color: white;
+  }
 }
 
 @media (orientation: landscape) and (max-height: 500px) {
   .showcase-area {
     height: 50vmax;
+  }
+  .logo{
+    color: white;
   }
 }
 .footer h1{
