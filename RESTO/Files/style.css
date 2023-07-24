@@ -714,3 +714,11 @@ cursor: pointer;
   padding: 0;
 }
 
+@media (min-width: 100px) and (max-width: 468px) {
+.logo{
+  left: 110px;
+font color: #fd4d18;
+}
+
+
+}
