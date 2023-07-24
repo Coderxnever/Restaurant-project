@@ -719,6 +719,8 @@ cursor: pointer;
   left: 110px;
 font color: #fd4d18;
 }
-
+  .navbar{
+  width:50% ;
+}
 
 }
