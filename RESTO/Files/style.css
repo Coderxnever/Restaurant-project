@@ -687,7 +687,30 @@ cursor: pointer;
   }
   .logo{
     color: white;
+    left: 110px;
+    margin: auto;
+    
   }
+ 
+
+}
+@media (min-width: 501px) and (max-width: 768px){
+  .image img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .showcase-container{
+    width: 100%;
+    height: auto;
+  }
+  .logo{
+    margin-top: 7px;
+    left: auto;
+    font-size: 21px
+  
+  }
+  
 }
 
 @media (orientation: landscape) and (max-height: 500px) {
@@ -699,6 +722,7 @@ cursor: pointer;
     display: flex;
     justify-content: flex-start;
     left: 50px;
+    /* font-size: 25px */
   }
 }
 .footer h1{
@@ -714,13 +738,41 @@ cursor: pointer;
   padding: 0;
 }
 
-@media (min-width: 100px) and (max-width: 468px) {
+@media (min-width: 399px) and (max-width: 468px) {
 .logo{
-  left: 110px;
-font color: #fd4d18;
-}
-  .navbar{
-  width:50% ;
+  margin-top: 5px;
+  left: 170px;
+  font-size: 25px
+
 }
 
+
+navbar-container container{
+  width: 5%;
+  right: 5%;
+}
+.showcase-container{
+  width: auto;
+  height: auto;
+}
+
+
+}
+@media (min-width:100px) and (max-width: 398px){
+  .logo{
+    margin-top: 7px;
+    left: auto;
+    font-size: 21px
+  
+  }
+  .navbar{
+    width: 100%;
+    right: 0%;
+  }
+
+  .showcase-container{
+
+    width: auto;
+    height: auto;
+  }
 }
